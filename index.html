@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Roboto+Slab&family=Stalinist+One&display=swap" rel="stylesheet">
+    <title>Etch-a-Sketch</title>
+</head>
+<body>
+    <h1>Etch-a-sketch</h1>
+    <div class="grid-container">
+
+    </div>
+    <div class="customization">
+        <div>
+            <label for="color-picker">Choose a colour... </label>
+            <input type="color" class="color-picker" name="color-picker" value="#e66465"> 
+        </div>
+        <div>
+            <button class="clearButton">CLEAR CANVAS</button>  
+        </div>         
+    </div>
+    <div class="slidecontainer">
+        <p>Choose your grid size:</p>
+        <input type="range" min="1" max="100" value="16" class="slider" id="myRange">
+        <p class="size"></p>
+      </div>  
+    
+</body>
+<script src="js/script.js"></script>
+</html>
